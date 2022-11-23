@@ -1,0 +1,15 @@
+[package]
+name = "chat"
+version = "0.1.0"
+author = ["Leanne J Dong <jdleanne@gmail.com>"]
+edition = "2021"
+
+[profile.release]
+lto = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+smart-contract = "0.2.0"
+smart-contract-macros = "0.2.0"
